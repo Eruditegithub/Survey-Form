@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Skills Survey Form built with HTML only in details</title>
+</head>
+<body>
+    <h1><center>Your Programming Skills Survey Form</center></h1>
+    <form action="survey">
+        <!--Using one of the type of form: "placeholder" -->
+        <div>
+            <label for="name"><strong>Name</strong></label>
+            <div>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+        </div>
+        <br>
+        <div>
+            <label for="email"><strong>Email</strong></label>
+            <div>
+            <input type="text" id="name" placeholder="Enter your email" required>
+            </div>
+        </div>
+        <br>
+        <div>
+            <label for="age"><strong>Age</strong></label>
+            <div>
+            <input type="number" id="age" required>
+            </div>
+        </div>
+        <br>
+        <div>
+            <label for="contact"><strong>Phone number</strong></label>
+            <div>
+            <input type="number" id="contact" placeholder="xxx xxxx xxxx" maxlength="11" required>
+            </div>
+        </div>
+        <br>
+        <!--Using another type of form: "Radio" -->
+        <div>
+            <div>
+            <label for="level-1"><strong>What is your level of experience in programming?</strong></label>
+            </div>
+            <div>
+            <label for="level-1"></label>
+            <input type="radio" id="level-1">Beginner</input>
+            </div>
+            <div>
+            <label for="level-2"></label>
+            <input type="radio" id="level-2">Intermediate</input>
+            </div>
+            <div>
+            <label for="level-3"></label>
+            <input type="radio" id="level-3">Advanced</input>
+            </div>
+        </div>
+        <br>
+        <!--Using another type of form: "Drop-down" -->
+        <div>
+            <div>
+            <label for="lang"><strong>What Programming languages are you familiar with? <small>(Select all that apply)</small></strong></label>
+            </div>
+            <div>
+                <select name="lang" id="Programming">
+                <option value="c">C</option>
+                <option value="c++">C++</option>
+                <option value="java">Java</option>
+                <option value="python">Python</option>
+                <option value="javascript">JavaScript</option>
+                <option value="react">React</option>
+                <option value="angular">Angular</option>
+                <option value="spring">Spring</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <!--Using another type of form: "Checkbox" -->
+        <div>
+            <label for="interest"><strong>What areas of Programming are you most interested in?</strong></label>
+        </div>
+        <div>
+            <label for="web-dev"><input type="checkbox">Web Development</label>
+            </div>
+            <div>
+            <label for="app-dev"><input type="checkbox">Mobile App Development</label>
+        </div>
+        <br>
+        <div>
+            <label for=""><strong>What resources do you use to learn new programming skills?</strong></label>
+        </div>
+        <div>
+            <label for="courses"><input type="radio">Online courses</label>
+        </div>
+        <div>
+            <label for="books"><input type="radio">Books</label>
+        </div>
+        <div>
+            <label for="tutorials"><input type="radio">Tutorials</label>
+        </div>
+        <br>
+        <!--Using another type of form: "textarea" with values of how the comment box should look like with measurement of roll $ column -->
+        <div>
+            <label for=""><strong>How do you stay up-to-date with the latest programming trends and technologies?</strong></label>
+            </div>
+            <div>
+            <textarea name="" id="" cols="60" rows="2"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for=""><strong>What are some common challenges you face when programming?</strong></label>
+            </div>
+            <div>
+            <textarea name="" id="" cols="100" rows="5"></textarea>
+        </div>
+    </form>
+</body>
+</html>
